@@ -1,0 +1,62 @@
+body{
+    background: black;
+    font-family: 'Baloo Da 2', cursive;
+}
+h1{
+    color: white;
+    text-align: center;
+    background-color: lightsalmon;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+button{
+    border: none;
+    font-weight: bolder;
+    height: 100%;
+    font-size: inherit;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    outline: none;
+    transition: all 0.3s;
+}
+button:hover{
+    color: lightsalmon;
+}
+.square{
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.6666%;
+    border-radius: 20%;
+    transition: all 0.3s;
+}
+.container{
+    margin: 0 auto 4rem auto;
+    max-width: 650px;
+}
+.selected{
+    background-color: black;
+    color: white;
+}
+#stripe{
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    height: 30px;
+    margin-bottom: 20px;
+}
+#tryAgain{
+    padding-left: 140px;
+    padding-right: 140px;
+    letter-spacing: 1px;
+}
+#goalColor {
+    font-size: 200%;
+    margin: 0 20px 0 20px;
+}
+
+
+.lightgoldenrodyellow{
+    color: lightgoldenrodyellow;
+}
+
