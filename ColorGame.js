@@ -65,7 +65,7 @@ function modesEventListenerAdded(){
         for (let i = 3; i < 6; i++) {
             squares[i].style.display = "none";
         }
-        initSquare();
+        initGame();
     });
     modes[1].addEventListener("click", function () {
         modes[0].classList.remove("selected");
@@ -74,7 +74,7 @@ function modesEventListenerAdded(){
         for (let i = 3; i < 6; i++) {
             squares[i].style.display = "block";
         }
-        initSquare();
+        initGame();
     });
 }
 function squareEventListenerAdded(){
