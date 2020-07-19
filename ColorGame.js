@@ -47,7 +47,11 @@ function initSquare(){
 }
 function setGoal(){
     goalIdx = Math.floor(Math.random()*(squareNum));
-    goalColor.textContent = squares[goalIdx].style.backgroundColor;
+    if(squareNum === 3){
+        goalColor.innerHTML = "rgb(<span id='rb'>" + colors[goalIdx][0] + "</span>, <span id='gb'>" + colors[goalIdx][1] + "</span>, <span id='bb'>" + colors[goalIdx][2] + "</span>)";
+    }else{
+        goalColor.textContent = squares[goalIdx].style.backgroundColor;
+    }
 }
 function initOtherParameter(){
     hasWon = 0;
