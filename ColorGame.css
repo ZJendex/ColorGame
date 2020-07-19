@@ -39,6 +39,9 @@ button:hover{
     background-color: black;
     color: white;
 }
+.lightgoldenrodyellow{
+    color: lightgoldenrodyellow;
+}
 #stripe{
     background-color: lightgoldenrodyellow;
     text-align: center;
@@ -54,9 +57,24 @@ button:hover{
     font-size: 200%;
     margin: 0 20px 0 20px;
 }
+#rb{
+    display: inline-block;
+    line-height: 60px;
+    border-bottom: 5px solid red;
+    border-radius: 5%;
 
-
-.lightgoldenrodyellow{
-    color: lightgoldenrodyellow;
 }
+#gb{
+    display: inline-block;
+    line-height: 60px;
+    border-bottom: 5px solid green;
+    border-radius: 5%;
+}
+#bb{
+    display: inline-block;
+    line-height: 60px;
+    border-bottom: 5px solid blue;
+    border-radius: 5%;
+}
+
 
