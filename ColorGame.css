@@ -19,6 +19,7 @@ button{
     letter-spacing: 1px;
     outline: none;
     transition: all 0.3s;
+    background-color: lightgoldenrodyellow;
 }
 button:hover{
     color: lightsalmon;
