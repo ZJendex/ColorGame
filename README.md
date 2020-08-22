@@ -1,6 +1,11 @@
-# ColorGame
-Guessing the color by rgb elements -- Web Based
+# Color Game
+A Game on website asking the color by RGB color model inspried on Colt Steele
+* JavaScript
+* HTML
+* CSS
+## Features
+* easy/hard mode
+## Future Plan
+1. Adding Competition mode shows the name and scores
 
-I made this project on the inspriation of the color game project from <i>The Web Developer Bootcamp</i> in Udemy.
 
-This is my own version of it :)
